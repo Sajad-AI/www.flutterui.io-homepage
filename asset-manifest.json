@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/www.flutterui.io-homepage/static/css/main.76f35c37.chunk.css",
-    "main.js": "/www.flutterui.io-homepage/static/js/main.de96ec66.chunk.js",
-    "main.js.map": "/www.flutterui.io-homepage/static/js/main.de96ec66.chunk.js.map",
-    "runtime-main.js": "/www.flutterui.io-homepage/static/js/runtime-main.0b0e65a7.js",
-    "runtime-main.js.map": "/www.flutterui.io-homepage/static/js/runtime-main.0b0e65a7.js.map",
-    "static/css/2.c1256375.chunk.css": "/www.flutterui.io-homepage/static/css/2.c1256375.chunk.css",
-    "static/js/2.8f631017.chunk.js": "/www.flutterui.io-homepage/static/js/2.8f631017.chunk.js",
-    "static/js/2.8f631017.chunk.js.map": "/www.flutterui.io-homepage/static/js/2.8f631017.chunk.js.map",
-    "index.html": "/www.flutterui.io-homepage/index.html",
-    "static/css/2.c1256375.chunk.css.map": "/www.flutterui.io-homepage/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.76f35c37.chunk.css.map": "/www.flutterui.io-homepage/static/css/main.76f35c37.chunk.css.map",
-    "static/js/2.8f631017.chunk.js.LICENSE.txt": "/www.flutterui.io-homepage/static/js/2.8f631017.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.76f35c37.chunk.css",
+    "main.js": "/static/js/main.de96ec66.chunk.js",
+    "main.js.map": "/static/js/main.de96ec66.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.98a46492.js",
+    "runtime-main.js.map": "/static/js/runtime-main.98a46492.js.map",
+    "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
+    "static/js/2.ae89a7ba.chunk.js": "/static/js/2.ae89a7ba.chunk.js",
+    "static/js/2.ae89a7ba.chunk.js.map": "/static/js/2.ae89a7ba.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.76f35c37.chunk.css.map": "/static/css/main.76f35c37.chunk.css.map",
+    "static/js/2.ae89a7ba.chunk.js.LICENSE.txt": "/static/js/2.ae89a7ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b0e65a7.js",
+    "static/js/runtime-main.98a46492.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.8f631017.chunk.js",
+    "static/js/2.ae89a7ba.chunk.js",
     "static/css/main.76f35c37.chunk.css",
     "static/js/main.de96ec66.chunk.js"
   ]
