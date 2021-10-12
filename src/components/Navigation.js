@@ -1,33 +1,61 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import {
+  AppBar,
+  Toolbar,
+  CssBaseline,
+  Typography,
+  makeStyles,
+} from "@material-ui/core";
+import Button from "react-bootstrap/Button";
+
 import { Link } from "react-router-dom";
-import Button from "@mui/material/Button";
 
-const Navigation = () => (
-  <Navbar className="nav" fluid>
-    <Container>
-      <Navbar.Brand className="mr-auto" href="#home" as={Link} to="/home">
-        <img alt="" src="framer.png" className="d-inline-block align-top" />
-        FlutterUI
-      </Navbar.Brand>
-      <Nav className="me-auto">
-        <Nav.Link href="#info" as={Link} to="/info">
-          Why FlutterUI
-        </Nav.Link>
-        <Nav.Link href="#docs" as={Link} to="/docs">
-          Docs
-        </Nav.Link>
-        <Navbar.Text className="navText">It’s free!</Navbar.Text>
-      </Nav>
-      <Nav>
-        <Nav.Link eventKey={2} href="#console">
-          <Button variant="contained" disableElevation>
-            Console
-          </Button>
-        </Nav.Link>
-      </Nav>
-    </Container>
-  </Navbar>
-);
+const useStyles = makeStyles((theme) => ({
+  header: {
+    boxShadow: "0 2px 4px 0 rgba(0, 0, 0, 0.2)",
+    color: "#FFF",
+  },
+  logo: {
+    cursor: "pointer",
+    fontSize: "20px",
+    color: "#414141",
+    textDecoration: "none",
+    marginRight: "30px",
+  },
+  link: {
+    textDecoration: "none",
+    color: "#414141",
+    marginLeft: theme.spacing(5),
+  },
+}));
 
-export default Navigation;
+function Navbar() {
+  const classes = useStyles();
+
+  return (
+    <AppBar className="nav" position="static" color={classes.header}>
+      <CssBaseline />
+      <Toolbar>
+        <Typography to="/" component={Link} className={classes.logo}>
+          <img alt="" src="framer.png" />
+          FlutterUI
+        </Typography>
+        <div>
+          <Link to="/why" className={classes.link}>
+            Why FlutterUI
+          </Link>
+          <Link to="/dosc" className={classes.link}>
+            Docs
+          </Link>
+        </div>
+        <div className="margin-left">
+          <Link to="/login" className={classes.link}>
+            Sing Up
+          </Link>
+          <Button className="btn active top-btn">Go To Console</Button>
+        </div>
+      </Toolbar>
+    </AppBar>
+  );
+}
+export default Navbar;

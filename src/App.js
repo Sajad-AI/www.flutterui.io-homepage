@@ -1,22 +1,22 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
-import Info from "./pages/Info";
+import Why from "./pages/Why";
 import Docs from "./pages/Docs";
+import Login from "./pages/Login";
 
 const App = () => (
   <div>
-    <Navigation />
     <Main />
   </div>
 );
 
 const Main = () => (
   <Switch>
-    <Route exact path="/home" component={Home}></Route>
-    <Route path="/info" component={Info}></Route>
+    <Route exact path="/" component={Home}></Route>
+    <Route path="/why" component={Why}></Route>
     <Route path="/docs" component={Docs}></Route>
+    <Route path="/login" component={Login}></Route>
   </Switch>
 );
 

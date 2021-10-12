@@ -1,11 +1,11 @@
 import React from "react";
 
-function Info() {
+function Login() {
   return (
     <div>
-      <h1>Why FlutterUI</h1>
+      <h1>asd</h1>
     </div>
   );
 }
 
-export default Info;
+export default Login;
