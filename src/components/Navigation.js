@@ -17,9 +17,12 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     cursor: "pointer",
     fontSize: "20px",
-    color: "#414141",
     textDecoration: "none",
     marginRight: "30px",
+    color: "#414141",
+    "&:hover": {
+      color: "#414141",
+    },
   },
   link: {
     textDecoration: "none",
@@ -39,18 +42,12 @@ function Navbar() {
           <img alt="" src="framer.png" />
           FlutterUI
         </Typography>
-        <div>
-          <Link to="/why" className={classes.link}>
-            Why FlutterUI
-          </Link>
-          <Link
-            to="/Docs"
-            onChange="https://docs.flutterui.io"
-            className={classes.link}
-          >
-            Docs
-          </Link>
-        </div>
+        <Link to="/why" className={classes.link}>
+          Why FlutterUI
+        </Link>
+        <a href="https://docs.flutterui.io" className={classes.link}>
+          Docs
+        </a>
         <div className="margin-left">
           <Link to="/login" className={classes.link}>
             Sing Up
