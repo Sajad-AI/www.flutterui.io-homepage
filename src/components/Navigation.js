@@ -12,7 +12,6 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   header: {
-    boxShadow: "0 2px 4px 0 rgba(0, 0, 0, 0.2)",
     color: "#FFF",
   },
   logo: {
@@ -33,7 +32,7 @@ function Navbar() {
   const classes = useStyles();
 
   return (
-    <AppBar className="nav" position="static" color={classes.header}>
+    <AppBar className="Appbar-shadow" position="static" color={classes.header}>
       <CssBaseline />
       <Toolbar>
         <Typography to="/" component={Link} className={classes.logo}>
@@ -44,7 +43,11 @@ function Navbar() {
           <Link to="/why" className={classes.link}>
             Why FlutterUI
           </Link>
-          <Link to="/dosc" className={classes.link}>
+          <Link
+            to="/Docs"
+            onChange="https://docs.flutterui.io"
+            className={classes.link}
+          >
             Docs
           </Link>
         </div>

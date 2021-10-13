@@ -1,6 +1,6 @@
 import React from "react";
 
-function Guide() {
+function Why() {
   return (
     <div className="intro">
       <h1>Why FlutterUI?</h1>
@@ -8,4 +8,4 @@ function Guide() {
   );
 }
 
-export default Guide;
+export default Why;

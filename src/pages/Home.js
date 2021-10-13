@@ -5,8 +5,10 @@ function Home() {
   return (
     <div className="intro">
       <h4>Flutter UI Builder</h4>
-      <h5>Build Flutter UI much faster. Generate clean code.</h5>
-      <p className="text"> It’s free and open source.</p>
+      <div className="info-margin">
+        <h5>Build Flutter UI much faster. Generate clean code.</h5>
+        <p className="info-style"> It’s free and open source.</p>
+      </div>
       <div>
         <Button className="btn active">Start Building Flutter Apps</Button>
         <Button variant="outline-secondary">Download Source Code</Button>
