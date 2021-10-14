@@ -11,7 +11,12 @@ function Home() {
       </div>
       <div>
         <Button className="btn active">Start Building Flutter Apps</Button>
-        <Button variant="outline-secondary">Download Source Code</Button>
+        <Button
+          variant="outline-secondary"
+          href="https://github.com/flutterui-io/FlutterUI"
+        >
+          Download Source Code
+        </Button>
       </div>
     </div>
   );

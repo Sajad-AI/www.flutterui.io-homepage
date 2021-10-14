@@ -50,3 +50,43 @@
 .btn:focus {
   box-shadow: none !important;
 }
+
+/* pages - why */
+
+.page-why {
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  transform: translateY(20%);
+  justify-content: center;
+}
+
+/* pages - why - card */
+
+.custom-card {
+  width: 300px;
+  height: 480px;
+  background: #fff;
+  border-radius: 10px;
+  border: solid;
+}
+
+.upper-container {
+  height: 100px;
+  background: #c5f2c7;
+}
+
+.image-container img {
+  background: #818081;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(0%, 45px);
+}
+
+.lower-container {
+  margin-top: 35%;
+  background: #fff;
+}
