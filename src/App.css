@@ -6,6 +6,21 @@
 Button {
   text-transform: none;
 }
+
+.btn {
+  border-radius: 2px !important;
+  margin: 0px 5px;
+}
+
+.top-btn {
+  transition: none;
+  margin-left: 30px;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
 /* Navigation*/
 
 .margin-left {
@@ -39,22 +54,6 @@ Button {
   padding: 4px 8px;
 }
 
-/* ------------------------------------ */
-
-.btn {
-  border-radius: 2px !important;
-  margin: 0px 5px;
-}
-
-.top-btn {
-  transition: none;
-  margin-left: 30px;
-}
-
-.btn:focus {
-  box-shadow: none !important;
-}
-
 /* pages - why */
 
 .page-why {
@@ -71,31 +70,33 @@ Button {
 
 /* pages - why - card */
 
-.custom-card {
-  width: 300px;
-  height: 480px;
-  background: #fff;
-  border-radius: 10px;
-  border: solid;
-}
-
 .upper-container {
-  height: 100px;
-  background: #c5f2c7;
+  height: 75px;
 }
 
 .image-container {
   background: #fff;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  transform: translate(45%, 45px);
-  border: 2px solid #1f8b24;
+  transform: translate(60%, 25px);
   display: table-cell;
   vertical-align: middle;
 }
 
 .lower-container {
-  margin-top: 35%;
+  margin-top: 30%;
   background: #fff;
+}
+
+.lower-container p {
+  margin: 0.5em;
+}
+
+.card-button {
+  text-transform: none !important;
+  position: absolute !important;
+  bottom: 20px !important;
+  background: #e5e5e580 !important;
+  transform: translateX(-50%);
 }
