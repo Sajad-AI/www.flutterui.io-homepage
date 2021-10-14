@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+Button {
+  text-transform: none;
+}
 /* Navigation*/
 
 .margin-left {
@@ -54,12 +58,15 @@
 /* pages - why */
 
 .page-why {
-  display: inline-block;
   width: 100%;
   background-size: cover;
   text-align: center;
   transform: translateY(20%);
   justify-content: center;
+}
+
+.card-position {
+  display: inline-block;
 }
 
 /* pages - why - card */
@@ -77,13 +84,15 @@
   background: #c5f2c7;
 }
 
-.image-container img {
-  background: #818081;
+.image-container {
+  background: #fff;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  padding: 5px;
-  transform: translate(0%, 45px);
+  transform: translate(45%, 45px);
+  border: 2px solid #1f8b24;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .lower-container {
