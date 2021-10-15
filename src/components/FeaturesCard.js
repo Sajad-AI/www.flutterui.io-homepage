@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     background: "#fff",
     borderRadius: "8px",
     display: "inline-block",
-    marginLeft: theme.spacing(5),
+    marginLeft: theme.spacing(3),
   },
 }));
 
