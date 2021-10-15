@@ -6,7 +6,8 @@ import {
   Typography,
   makeStyles,
 } from "@material-ui/core";
-import Button from "react-bootstrap/Button";
+import Button from "@mui/material/Button";
+
 
 import { Link } from "react-router-dom";
 
@@ -52,7 +53,13 @@ function Navbar() {
           <Link to="/login" className={classes.link}>
             Sing Up
           </Link>
-          <Button className="btn active top-btn">Go To Console</Button>
+          <Button
+        disableElevation
+        variant="contained"
+        className="top-btn"
+      >
+        Go to Console
+      </Button>
         </div>
       </Toolbar>
     </AppBar>
