@@ -8,9 +8,26 @@ Button {
   text-transform: none !important;
 }
 
-.btn {
-  border-radius: 2px !important;
-  margin: 0px 5px;
+/* Page-Home */
+.intro {
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  transform: translateY(100%);
+}
+
+.intro .info-margin {
+  margin: 30px;
+}
+
+.intro .info-style {
+  display: inline;
+  font-size: 16px;
+  color: #1f8b24;
+  background: #c5f2c780;
+  border-radius: 1px;
+  padding: 4px 8px;
 }
 
 .console-btn {
@@ -34,12 +51,7 @@ Button {
   color: #0f56b3 !important;
 }
 
-.btn:focus {
-  box-shadow: none !important;
-}
-
 /* Navigation*/
-
 .margin-left {
   margin-left: auto;
 }
@@ -48,31 +60,7 @@ Button {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18) !important;
 }
 
-/* Home = Main dashboard*/
-
-.intro {
-  display: inline-block;
-  width: 100%;
-  background-size: cover;
-  text-align: center;
-  transform: translateY(100%);
-}
-
-.intro .info-margin {
-  margin: 30px;
-}
-
-.intro .info-style {
-  display: inline;
-  font-size: 16px;
-  color: #1f8b24;
-  background: #c5f2c780;
-  border-radius: 1px;
-  padding: 4px 8px;
-}
-
 /* pages - why */
-
 .page-why {
   width: 100%;
   background-size: cover;
