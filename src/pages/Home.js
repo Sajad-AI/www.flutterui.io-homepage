@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+import Button from "@mui/material/Button";
 
 function Home() {
   return (
@@ -10,9 +10,13 @@ function Home() {
         <p className="info-style"> It’s free and open source.</p>
       </div>
       <div>
-        <Button className="btn active">Start Building Flutter Apps</Button>
+        <Button disableElevation className="build-btn" variant="contained">
+          Start Building Flutter Apps
+        </Button>
         <Button
-          variant="outline-secondary"
+          disableElevation
+          className="download-btn"
+          variant="outlined"
           href="https://github.com/flutterui-io/FlutterUI"
         >
           Download Source Code

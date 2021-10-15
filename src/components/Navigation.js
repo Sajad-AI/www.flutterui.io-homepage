@@ -8,7 +8,6 @@ import {
 } from "@material-ui/core";
 import Button from "@mui/material/Button";
 
-
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
@@ -53,13 +52,9 @@ function Navbar() {
           <Link to="/login" className={classes.link}>
             Sing Up
           </Link>
-          <Button
-        disableElevation
-        variant="contained"
-        className="top-btn"
-      >
-        Go to Console
-      </Button>
+          <Button disableElevation variant="contained" className="console-btn">
+            Go to Console
+          </Button>
         </div>
       </Toolbar>
     </AppBar>
