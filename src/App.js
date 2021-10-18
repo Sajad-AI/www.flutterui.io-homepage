@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Why from "./pages/Why";
 import Login from "./pages/Login";
+import Terms from "./pages/Terms";
 
 const App = () => (
   <div>
@@ -15,6 +16,7 @@ const Main = () => (
     <Route exact path="/" component={Home}></Route>
     <Route path="/why" component={Why}></Route>
     <Route path="/login" component={Login}></Route>
+    <Route path="/terms" component={Terms}></Route>
   </Switch>
 );
 
